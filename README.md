@@ -27,7 +27,7 @@ import support
 ```
 
 を実行します。  
-より具体的な例は[サポートプログラムの使い方](https://github.com/khirotaka/tigerfish/blob/master/utils/サポートプラグラムの使い方.ipynb)を参照してください。
+より具体的な例は[サポートプログラムの使い方](utils/サポートプラグラムの使い方.ipynb)を参照してください。
 
 ## M1
 Isses にある **M1向け資料作成手順** を参照して資料作成をしてください。
