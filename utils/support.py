@@ -1,7 +1,6 @@
-import numpy as np
 import seaborn as sns
-from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import f1_score
 
 
 def fetch_titanic(train=True):
@@ -21,4 +20,4 @@ def fetch_titanic(train=True):
 
 def calc_score(predicts):
     y_test = fetch_titanic(False)
-    return accuracy_score(y_test, predicts)
+    return f1_score(y_test, predicts)
